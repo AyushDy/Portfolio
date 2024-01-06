@@ -2,12 +2,16 @@
     --backcolor: #252526;
     --pricolor: #404041;
     --seccolor: #e8772c;
-    --textcolor: #a1a1a1;
+    --textcolor: #dad9d9;
 }
 
 
 *{
   color:var(--textcolor) ;
+}
+*::selection{
+  background-color: var(--seccolor);
+    
 }
 
 body{
