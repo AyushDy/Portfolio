@@ -259,7 +259,6 @@
     }
     .about-me{
       height: 90vh;
-      /* border: 1px solid blue; */
       font-size: 100%;
     }
     .aboutme-content{
@@ -275,7 +274,6 @@
         
    .doing-items-container{
     height: 170vh;
-    /* border: 1px solid greenyellow; */
     width: 80vw;
    }
 
@@ -286,15 +284,12 @@
    }
    .doing-header{
     width: 80vw;
-    /* border: 1px solid white; */
 
    }
    .doing-items-content{
     width: 50vw;
-    /* border: 1px solid white; */
    }
    .doing-items-icon{
-    /* border: 1px solid aqua; */
     text-align: center;
    }
    
@@ -312,7 +307,6 @@
    }
 
    .testimonials-container{
-    /* border: 1px solid aqua; */
     width:80vw;
    }
 
