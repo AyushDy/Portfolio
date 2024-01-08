@@ -125,3 +125,117 @@
 
 
     }
+
+
+ @media (max-width:600px){
+      body{
+        height: 2800px;
+        width: 100vw;
+      }
+      .main{
+        width: 100vw;
+        height: 2300px;
+        margin: 0 auto;
+      }
+
+      .floating-side{
+        width: 90vw;
+        margin: 0 auto;
+        height: 20vh;
+      }
+
+      #profileimg{
+        width: 80px;
+        height: 80px;
+      }
+      .year{
+        width: 150px;
+      }
+
+      .about-container{
+        width: 90vw;
+        margin: 0 auto;
+        height: 2100px;
+      }
+    .hr{
+      width: 80vw;
+    }
+
+    .about-me, .aboutme-head{
+      width: 90vw;
+    }
+    .about-me{
+      height: 90vh;
+      /* border: 1px solid blue; */
+      font-size: 100%;
+    }
+    .aboutme-content{
+      width: 80vw;
+      height: fit-content;
+    }
+
+    .what-im-doing{
+      width: 80vw;
+      margin: 0 auto;
+      height: 200vh;
+    }
+        
+   .doing-items-container{
+    height: 200vh;
+    /* border: 1px solid greenyellow; */
+    width: 80vw;
+   }
+
+   .doing-items-box{
+    height: 35vh;
+    width: 80vw;
+    font-size: 3vw;
+   }
+   .doing-header{
+    width: 80vw;
+    /* border: 1px solid white; */
+
+   }
+   .doing-items-content{
+    width: 50vw;
+    /* border: 1px solid white; */
+   }
+   .doing-items-icon{
+    /* border: 1px solid aqua; */
+    text-align: center;
+   }
+   
+   .testimonials{
+    width: 89.55vw;
+    margin: 0 auto;
+     }
+
+   .testimonials-header{
+    width: 80vw;
+   }
+
+   .testimonials-box{
+    width: 80vw;
+   }
+
+   .testimonials-container{
+    /* border: 1px solid aqua; */
+    width:80vw;
+   }
+
+   .test-header{
+    width: 70vw;
+   }
+
+   .testimonials-box > img{
+    width: 70vw;
+    height: 30vh;
+
+   }
+
+   .testimonials-box > iframe{
+     width: 70vw;
+     height: 30vh;
+   }
+
+    }
