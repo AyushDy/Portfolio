@@ -127,7 +127,100 @@
     }
 
 
- @media (max-width:600px){
+ @media (max-width:900px){
+       .about-container{
+        width: 700px;
+        height: 1550px;
+        transition: width 0.4s ease,;
+      }
+
+      body{
+        height: 2200px;
+      }
+
+      .main{
+        height: 1900px;
+        width: 700px;
+      }
+
+      .what-im-doing{
+        /* border: 1px solid; */
+        height: 700px;
+      }
+     
+      .floating-side {
+        width: 700px;
+        transition: width 0.4s ease;
+      }
+
+    .about-me, .aboutme-head, .hr{
+        width: 680px;
+    }
+      .aboutme-content{
+        width: 650px;
+      }
+      
+    .what-im-doing{
+       width: 700px;
+    }
+
+    .doing-header{
+      width: 680px;
+      
+    }
+    .doing-items-container{
+        /* border: 1px solid red; */
+        width: 700px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .doing-items-box{
+        width: 670px;
+        height: 120px ;
+    }
+    .doing-items-content{
+        width: 600px;
+        height: 150px;
+    }
+
+    .testimonials{
+        width: 700px;
+        height: 850px;
+        /* border: 1px solid greenyellow; */
+          border-bottom: 1px solid;
+          border-left: 1px solid;
+          border-right: 1px solid;
+          border-bottom-left-radius: 25px;
+          border-bottom-right-radius: 25px;
+    }
+    .testimonials-header{
+        width: 680px;
+    }
+    
+    .testimonials-container{
+        /* border: 2px solid red; */
+        height:700px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      
+    }
+    .testimonials-box{
+        width: 600px;
+    }
+
+
+    }
+
+
+
+    @media (max-width:600px){
       body{
         height: 2800px;
         width: 100vw;
@@ -165,29 +258,29 @@
       width: 90vw;
     }
     .about-me{
-      height: 70vh;
-       border: 1px solid blue; 
+      height: 90vh;
+      /* border: 1px solid blue; */
       font-size: 100%;
     }
     .aboutme-content{
       width: 80vw;
-     
+      height: fit-content;
     }
 
     .what-im-doing{
       width: 80vw;
       margin: 0 auto;
-      height: 200vh;
+      height: 150vh;
     }
         
    .doing-items-container{
-    height: 200vh;
+    height: 150vh;
     /* border: 1px solid greenyellow; */
     width: 80vw;
    }
 
    .doing-items-box{
-    height: 35vh;
+    height: 25vh;
     width: 80vw;
     font-size: 3vw;
    }
